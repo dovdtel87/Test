@@ -1,0 +1,27 @@
+[
+	{
+		"origin": "Barcelona",
+		"destiny": "Gerona Airport",
+		"transport": "Bus",
+		"additional_info": "No seat assignment"
+	},
+	{
+		"origin": "London",
+		"destiny": "New York JFK",
+		"transport": "Plane",
+		"additional_info": "Flight: Sk22 Gate: 22 Seat: 7B Baggage automatically transfer"
+	},
+	{
+		"origin": "Madrid",
+		"destiny": "Barcelona",
+		"transport": "Train",
+		"additional_info": "Number: 78 A  Seat: 45B"
+	},
+
+	{
+		"origin": "Gerona Airport",
+		"destiny": "London",
+		"transport": "Plane",
+		"additional_info": "Flight: SK455 Gate: 45B  Seat:3A  Check-in: Desk 344"
+	}
+]

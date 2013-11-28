@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:background="#47155F"
+    android:baselineAligned="@+id/linearPadre"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp" >
+
+    <RelativeLayout
+    	android:id="@+id/relativeRoute"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLine"
+        android:layout_alignRight="@+id/relativeLine"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+        	android:id="@+id/origen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/destiny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+                
+    </RelativeLayout>
+
+    <RelativeLayout
+    	 android:id="@+id/relativeLine"
+         android:layout_width="fill_parent"
+         android:layout_height="1dp"
+         android:layout_below="@+id/relativeRoute"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:background="#FFFFFF"
+         android:orientation="vertical" >
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:id="@+id/relativeTransport"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/relativeLine"
+         android:orientation="horizontal" >
+
+     	<TextView
+        	android:id="@+id/transport"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="20dp"
+	        android:paddingBottom="0dp"
+	        android:textColor="#FFFFFF"
+	        android:textSize="18sp" />
+
+     </RelativeLayout>
+
+     <TextView
+         android:id="@+id/additionalinfo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/relativeLine"
+         android:layout_alignRight="@+id/relativeLine"
+         android:layout_below="@+id/relativeTransport"
+         android:paddingBottom="0dp"
+         android:textColor="#FFFFFF"
+         android:textSize="18sp"
+         android:layout_marginBottom="8dp" />
+
+     </RelativeLayout>
+</RelativeLayout>
