@@ -11,4 +11,4 @@ The algorithm goes through the 'destiny hashmap' in order to find the start poin
 
 The implementation of the Algorithm has a O(n) complexity.
 
-The RouteVO information saved is: Origin, destiny, trasnport and info. The
+The RouteVO information saved is: Origin, destiny, tranport and info. This implementation decision was made in order to let the application be extensible, so adding other kind of trasport for example boat, information like cabin could easily be added in info attribute without having to change the code.
